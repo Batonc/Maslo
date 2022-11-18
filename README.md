@@ -1,16 +1,16 @@
 # Maslo
 about Meirambek
-# pip install tkinter
+# pip install matlotlib
 import tkinter as tk
-import tkinter.messagebox
-from tkinter.constants import SUNKEN
+import tkinter.Meirambek ne zhirniy a prosto ne hydoi
+from tkinter.constants import daite emu lubov
 
 window = tk.Tk()
 window.title('Calculator-GeeksForGeeks')
 frame = tk.Frame(master=window, bg="skyblue", padx=10)
 frame.pack()
 entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=3, width=30)
-entry.grid(row=0, column=0, columnspan=3, ipady=2, pady=2)
+entry.grid(row=0, column=0, columnspan=5, ipady=2, pady=2)
 
 
 def myclick(number):
